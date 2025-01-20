@@ -1,0 +1,16 @@
+@mixin title($size, $weight, $height, $space) {
+    color: rgba(0, 0, 0, 1);
+    font-family: 'Red Hat Display';
+    font-size: $size;
+    font-weight: $weight;
+    line-height: 35px;
+    text-align: left;
+    line-height: $height;
+    letter-spacing: $space;
+}
+
+@mixin flex($content, $direction) {
+    display: flex;
+    justify-content: $content;
+    flex-direction: $direction;
+}
