@@ -247,17 +247,6 @@ body {
     }
 }
 
-.row-reverse {
-    flex-direction: row-reverse;
-
-    @media screen and (max-width: 320px) {
-        display: flex;
-        flex-direction: column;
-        max-width: 300px;
-
-    }
-}
-
 .article {
     max-width: 1170px;
     @include flex(space-between, row);
@@ -330,6 +319,18 @@ body {
 
 }
 
+
+.row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+
+    @media screen and (max-width: 320px) {
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+
+    }
+}
 
 
 .posts-heading {
