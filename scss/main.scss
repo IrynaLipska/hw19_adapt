@@ -520,18 +520,14 @@ body {
     &:hover {
         border: none;
         background-color: #565656;
-        z-index: -1;
 
+        .layer_1 {
+            fill: #fff;
+        }
     }
 
     &-svg {
         width: 50%;
         height: 50%;
-
-        &:hover .layer_1 {
-            fill: #fff;
-            z-index: 1;
-        }
-
     }
 }

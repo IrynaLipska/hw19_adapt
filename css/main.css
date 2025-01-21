@@ -717,13 +717,11 @@ body {
 .footer__icon:hover {
   border: none;
   background-color: #565656;
-  z-index: -1;
+}
+.footer__icon:hover .layer_1 {
+  fill: #fff;
 }
 .footer__icon-svg {
   width: 50%;
   height: 50%;
-}
-.footer__icon-svg:hover .layer_1 {
-  fill: #fff;
-  z-index: 1;
 }
